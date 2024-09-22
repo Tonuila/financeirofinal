@@ -2,3 +2,6 @@
 base = "."
 command = "npm run dev"
 publish = "./src/"
+
+[build.environment]
+CI = "false"
